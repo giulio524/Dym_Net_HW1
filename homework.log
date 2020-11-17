@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.24)  17 NOV 2020 20:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.24)  17 NOV 2020 22:26
 entering extended mode
 **c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/homework.tex
 (c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/homework.tex
@@ -518,46 +518,46 @@ Package pdftex.def Info: ES1_Fig1.jpg  used on input line 29.
 (pdftex.def)             Requested size: 330.38396pt x 172.20508pt.
  [1
 
-{C:/Users/giuli/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/ES1_Fig1.jpg>] [2] [3]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 84.
+{C:/Users/giuli/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/ES1_Fig1.jpg>] [2] [3] [4]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 146.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [4] [5] [6]
+) [5] [6] [7]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 185.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 190.
- [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 247.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 252.
+ [8]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 252.
  (c:/Users\giuli\Documents\GitHub\Dym_Net_HW1\homework.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 190.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 190.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 252.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 252.
 Package rerunfilecheck Info: File `homework.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 190.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 252.
  )
-(\end occurred when \ifx on line 180 was incomplete)
-(\end occurred when \ifx on line 175 was incomplete)
-(\end occurred when \ifx on line 156 was incomplete)
-(\end occurred when \ifx on line 149 was incomplete)
-(\end occurred when \ifx on line 141 was incomplete)
-(\end occurred when \ifx on line 124 was incomplete)
-(\end occurred when \ifx on line 115 was incomplete)
-(\end occurred when \ifx on line 105 was incomplete)
-(\end occurred when \ifx on line 84 was incomplete)
-(\end occurred when \ifx on line 71 was incomplete)
+(\end occurred when \ifx on line 242 was incomplete)
+(\end occurred when \ifx on line 237 was incomplete)
+(\end occurred when \ifx on line 218 was incomplete)
+(\end occurred when \ifx on line 211 was incomplete)
+(\end occurred when \ifx on line 203 was incomplete)
+(\end occurred when \ifx on line 186 was incomplete)
+(\end occurred when \ifx on line 177 was incomplete)
+(\end occurred when \ifx on line 167 was incomplete)
+(\end occurred when \ifx on line 146 was incomplete)
+(\end occurred when \ifx on line 133 was incomplete)
 (\end occurred when \ifx on line 27 was incomplete) 
 Here is how much of TeX's memory you used:
- 12329 strings out of 480799
- 182554 string characters out of 2905528
- 752595 words of memory out of 3000000
- 28025 multiletter control sequences out of 15000+200000
- 563988 words of font info for 58 fonts, out of 3000000 for 9000
+ 12334 strings out of 480799
+ 182593 string characters out of 2905528
+ 756440 words of memory out of 3000000
+ 28026 multiletter control sequences out of 15000+200000
+ 566976 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,11n,49p,3288b,456s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on c:/Users\giuli\Documents\GitHub\Dym_Net_HW1\homework.pdf (7 pages, 448699 bytes).
+ 42i,11n,49p,3288b,466s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
+Output written on c:/Users\giuli\Documents\GitHub\Dym_Net_HW1\homework.pdf (8 pages, 482492 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
+ 128 PDF objects out of 1000 (max. 8388607)
+ 28 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
