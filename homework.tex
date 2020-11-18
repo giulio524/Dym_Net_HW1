@@ -503,8 +503,38 @@ end
   \end{gather*}
 
   Infine per i nodi eliminati tramite il processo di \textit{glueing} vale:
-  \
+  \begin{gather*}
+    x_{\text{Lamberteschi}}=-1 \\ x_{\text{Ginori}}=0 \\
+    x_{\text{Acciaiuoli}}=x_{\text{Salviati}}=x_{\text{Pazzi}}=1
+  \end{gather*}
 
+  %--------------------------------------------------------------
+
+  \questionpart
+
+  Il seguente codice si basa sulle dichiarazioni di variabili relative al codice del punto precedente e sull'algoritmo che sfrutta la sub-stocasticità di \((1-\beta)P'\)
+
+  \begin{lstlisting}
+    %Sfruttiamo la proprieta' di (1-beta)P' di essere una matrice 
+    %sub stocastica per calcolare efficientemente
+% il vettore di centralita' Page-Rank
+    
+err=1;
+beta=0.15
+nu=1/15*ones(15,1);
+y=ones(15,1);
+i=1;
+while(i<MaxIter && err>tol)
+    y_next=(1-beta)*P'*y+beta*nu;
+    
+    err=norm(y_next-y)/norm(y_next);
+    
+    y=y_next; i=i+1;
+end
+
+err
+y
+  \end{lstlisting}
 
 
 \end{alphaparts}
