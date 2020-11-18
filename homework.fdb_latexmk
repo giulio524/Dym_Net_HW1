@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1605648402 "c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/homework.tex" "c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/homework.pdf" "homework" 1605648404
+["pdflatex"] 1605690402 "c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/homework.tex" "c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/homework.pdf" "homework" 1605690404
   "C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc" 1254935040 2375 baa924870cfb487815765f9094cf3728 ""
   "C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc" 1254935040 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc" 1254935040 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -41,6 +41,7 @@
   "C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb" 1254935040 121021 836464b5fe0c782d94085eb083550ccc ""
   "C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb" 1254935040 23055 2e5b42921de910eaa97b85df04ca4891 ""
   "C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb" 1254935040 30388 702fae6a5f0e6e9c48a1d872b442ffcf ""
+  "C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb" 1254935040 31113 04b711c9a4c7f8cb4ed784c6fc4cc1c5 ""
   "C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb" 1254935040 30635 833ec815d446ec453a4913fc26d24cbc ""
   "C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb" 1254935040 119235 05e5c8d6d60439433e50047898c2c0e0 ""
   "C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb" 1254935040 113634 9384aebdf26f9881e046a4b5574566db ""
@@ -150,16 +151,16 @@
   "C:/Users/giuli/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1590334269 10010661 ae33d70b164b6547171fd68374ff8585 ""
   "C:/Users/giuli/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1590334259 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "ES1_Fig1.jpg" 1605638646 248337 0030d139e6c701b58419cc20a11923d9 ""
-  "c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/homework.aux" 1605648404 662 b2b94621371df8d9296b8bf5bec1b851 ""
-  "c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/homework.tex" 1605648401 7829 e710515712555281e7bb3f2d68efa466 ""
-  "homework.aux" 1605648404 662 b2b94621371df8d9296b8bf5bec1b851 "pdflatex"
+  "c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/homework.aux" 1605690403 662 b2b94621371df8d9296b8bf5bec1b851 ""
+  "c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/homework.tex" 1605690399 9144 066d142d5da412dcc269f6d9bf6f7edd ""
+  "homework.aux" 1605690403 662 b2b94621371df8d9296b8bf5bec1b851 "pdflatex"
   "homework.cls" 1605634646 5533 870888d4c585315eca3f91cc8294cf09 ""
-  "homework.out" 1605648404 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "homework.tex" 1605648401 7829 e710515712555281e7bb3f2d68efa466 ""
+  "homework.out" 1605690403 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "homework.tex" 1605690399 9144 066d142d5da412dcc269f6d9bf6f7edd ""
   (generated)
-  "homework.out"
   "c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/homework.pdf"
-  "homework.aux"
   "homework.log"
+  "homework.out"
   "homework.pdf"
   "c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/homework.log"
+  "homework.aux"

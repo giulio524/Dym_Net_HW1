@@ -93,20 +93,20 @@
     z_2>0 \Rightarrow && 6z_2 + z_3 + 2 \leq 2z_3+z_1+z_2+3 && \Rightarrow z_2 \leq \frac{1}{3}\\
   \end{align*}
   
-  Queste condizioni implica che un possibile vettore di flusso che soddisfi le condizioni di Wardrop sia il seguente:
+  Queste condizioni implicano che un possibile vettore di flusso che soddisfi le condizioni di Wardrop sia il seguente:
 
   \begin{equation*}
     z_{\text{Wardrop}} = z_W = \left(\frac{1}{3},\frac{1}{3},\frac{1}{3}\right)
   \end{equation*}
 
-  Il costo totale che deriva da questo vettore di flusso è dato da:
+  Il ritardo totale che deriva da questo vettore di flusso è dato da:
   \begin{align*}
     \frac{2}{3}\left(\frac{2}{3}+1 \right) + \frac{5}{9} + \frac{1}{3} + \frac{1}{3} + \frac{5}{9} + \frac{1}{3} + \frac{2}{3}\left(\frac{2}{3}+1 \right) = \frac{13}{3}
   \end{align*}
 
   \questionpart
 
-  Calcolare l'ottimo di sistema equivale a minimizzare il costo totale in funzione del flusso su ciascun path \(o\) - \(d\):
+  Calcolare l'ottimo di sistema equivale a minimizzare il ritardo totale in funzione del flusso su ciascun path \(o\) - \(d\):
   \begin{equation*}
     \min\limits_z (z_1+z_3)(z_1+z_3+1)+(5z_2^2+z_2)+(z_3)+(5z_1^2+z_1)+(z_2+z_3)(z_2+z_3+1)
   \end{equation*}
@@ -126,6 +126,35 @@
   \begin{equation*}
     z_{\text{Sistema}}=z_S=\left(\frac{1}{4},\frac{1}{4},\frac{1}{2}\right)
   \end{equation*}
+
+  Questa configurazione dei flussi produce un ritardo totale dato da:
+
+  \begin{equation*}
+    \frac{3}{4}\left(\frac{3}{4}+1\right)+\frac{1}{4}\left(\frac{5}{4}+1\right)+\frac{1}{2}+\frac{1}{4}\left(\frac{5}{4}+1\right)+\frac{3}{4}\left(\frac{3}{4}+1\right)= \frac{17}{4}
+  \end{equation*}
+
+  \questionpart
+  Il costo totale dell'anarchia è dato dal rapporto tra il il ritardo totale dell'ottimo di sistema e il ritardo totale dell'equilibrio di Wardrop
+
+  \begin{equation*}
+    \frac{\frac{13}{3}}{\frac{17}{4}}=\frac{52}{51}
+  \end{equation*}
+  
+  \questionpart
+  Siano \(f^*_{e_i}\) e \(f^{(w)}_{e_i}\) i flussi su ciascun arco \(e_i\) rispettivamente nella configurazione dell'ottimo di sistema e in quella di equilibrio di Wardrop. Sia il ritardo totale su ciascun arco \(e_i\) definito come \(C_{e_i}(f_e)=d_{e_i}f_{e_i}\). La configurazione ottimale dei pedaggi per ottenere un costo dell'anarchia unitario è la seguente:
+  \begin{equation*}
+    \omega_{e_i}=C'_{e_i}(f^*_{e_i})-d_{e_i}(f^*_{e_i})=f^*_{e_i}d'_{e_i}(f^*_{e_i})
+  \end{equation*} 
+
+  che nel caso specifico si traduce in:
+
+  \begin{align*}
+    \omega_{e_1}&=\frac{3}{4} 1=\frac{3}{4}\\
+    \omega_{e_2}&=\frac{1}{4} 5=\frac{5}{4}\\
+    \omega_{e_3}&=0\\
+    \omega_{e_4}&=\frac{5}{4}\\
+    \omega_{e_4}&=\frac{3}{4}\\
+  \end{align*}
 
   \end{alphaparts}
 
