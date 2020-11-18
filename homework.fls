@@ -175,6 +175,24 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lm\lmodern.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lm\lmodern.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\bbm\bbm.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\bbm\bbm.sty
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\mcode.sty
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\mcode.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\grfext\grfext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\grfext\grfext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty
 INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\homework.aux
 INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\homework.aux
 OUTPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\homework.aux
@@ -183,8 +201,6 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr10.tfm
@@ -238,6 +254,50 @@ INPUT C:\Users\giuli\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmri10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr8.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr6.tfm
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\adobe\courier\pcrr8t.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\adobe\courier\pcrr8t.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\adobe\courier\pcrr8t.tfm
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1pcr.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1pcr.fd
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\adobe\courier\pcrr8c.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr9.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\vf\adobe\courier\pcrr8t.vf
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\adobe\courier\pcrr8r.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\vf\adobe\courier\pcrr8t.vf
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\adobe\courier\pcrr8r.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\vf\adobe\courier\pcrr8c.vf
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Grafo_2_iterazioni.eps
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Grafo_2_iterazioni.eps
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Grafo_2_iterazioni.eps
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Grafo_2_iterazioni-eps-converted-to.pdf
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Grafo_2_iterazioni-eps-converted-to.pdf
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Grafo_2_iterazioni.eps
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Grafo_2_iterazioni-eps-converted-to.pdf
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Grafo_2_iterazioni-eps-converted-to.pdf
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Grafo_2_iterazioni-eps-converted-to.pdf
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Grafo_2_iterazioni-eps-converted-to.pdf
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Grafo_25_iter.eps
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Grafo_25_iter.eps
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Grafo_25_iter.eps
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Grafo_25_iter-eps-converted-to.pdf
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Grafo_25_iter-eps-converted-to.pdf
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Grafo_25_iter.eps
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Grafo_25_iter-eps-converted-to.pdf
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Grafo_25_iter-eps-converted-to.pdf
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Grafo_25_iter-eps-converted-to.pdf
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Grafo_25_iter-eps-converted-to.pdf
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Traiettoria_opinioni.eps
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Traiettoria_opinioni.eps
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Traiettoria_opinioni.eps
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Traiettoria_opinioni-eps-converted-to.pdf
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Traiettoria_opinioni-eps-converted-to.pdf
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Traiettoria_opinioni.eps
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Traiettoria_opinioni-eps-converted-to.pdf
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Traiettoria_opinioni-eps-converted-to.pdf
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Traiettoria_opinioni-eps-converted-to.pdf
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Traiettoria_opinioni-eps-converted-to.pdf
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmtk10.tfm
@@ -246,6 +306,7 @@ INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\homework.aux
 INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\homework.out
 INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\homework.out
 INPUT C:\Program Files\MiKTeX 2.9\fonts\enc\dvips\lm\lm-ec.enc
+INPUT C:\Program Files\MiKTeX 2.9\fonts\enc\dvips\base\8r.enc
 INPUT C:\Program Files\MiKTeX 2.9\fonts\enc\dvips\lm\lm-mathit.enc
 INPUT C:\Program Files\MiKTeX 2.9\fonts\enc\dvips\lm\lm-mathex.enc
 INPUT C:\Program Files\MiKTeX 2.9\fonts\enc\dvips\lm\lm-rm.enc
@@ -280,3 +341,5 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\lm\lmtt10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\lm\lmtt10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msbm10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msbm10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\urw\courier\ucrr8a.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\urw\courier\ucrr8a.pfb

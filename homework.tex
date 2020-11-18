@@ -19,7 +19,9 @@
 \usepackage{hyperref}
 \usepackage{bbm}
 \usepackage{amsmath}
-
+\usepackage{mcode}
+\usepackage{epstopdf}
+\usepackage{subcaption}
 
 \begin{document}
 \maketitle
@@ -297,6 +299,157 @@
   \begin{align*}
     \lim\limits_{t \rightarrow \infty} x_i(t) = \left(\pi'x(0)\right)_i = \frac{6-4}{38}=\frac{1}{19} && \forall i=1\dots 15
   \end{align*}
+
+  %--------------CODICE MATLAB------------------------------------------------
+  \questionpart
+  Il seguente codice \mcode{MATLAB} produce una simulazione della dinamica di French-De Groot assegnando i due nodi stubborn \(\{\text{Strozzi}, \text{Medici}\}\) e fornendo una rappresentazione grafica della dinamica tramite la colorazione progressiva dei nodi in funzione della loro opinione
+  \begin{lstlisting}
+    close all
+clear all
+clc
+%Costruzione della matrice di adiacenza
+W = zeros (15);
+W(1,12)=1; W(12,1)=1; W(3,2)=1; W(2,3)=1; W(13,2)=1; 
+W(2,13)=1; W(14,2)=1; W(2,14)=1; W(12,3)=1; W(3,12)=1;
+W(14,3)=1; W(3,14)=1; W(12,4)=1; W(4,12)=1; W(4,15)=1;
+W(15,4)=1; W(5,14)=1; W(14,5)=1; W(5,15)=1; W(15,5)=1;
+W(6,7)=1; W(7,6)=1; W(6,12)=1; W(12,6)=1; W(15,6)=1;
+W(6,15)=1; W(13,8)=1; W(8,13)=1; W(15,8)=1; W(8,15)=1;
+W(9,15)=1; W(15,9)=1; W(11,10)=1; W(10,11)=1; W(10,15)=1;
+W(15,10)=1; W(13,14)=1; W(14,13)=1;
+
+
+Names={'Lamberteschi', 'Peruzzi', 'Bischeri','Tornabuoni',
+ 'Ridolfi', 'Albizzi', 'Ginori', 'Barbadori',
+  'Acciaiuoli', 'Salviati', 'Pazzi', 'Guadagni',
+   'Castellani', 'Strozzi', 'Medici'}';
+index=[1:15]';
+x=zeros(15,1); %Vettore di opinioni
+
+%Inserisco i due nodi stubborn
+x(15)=1;
+x(14)=-1;
+
+%Costruzione del Grafo in un oggetto graph
+NodeTable=table(index, Names, x); %Informazioni sui nodi
+G=graph(W,NodeTable);
+
+%------------------Plot del grafo iniziale--------------------------
+
+%Colorazione dei nodi
+color=zeros(15,3);
+for i=1:15
+    if x(i)>0
+        color(i,1)=x(i);
+    else
+        color(i,3)=abs(x(i));
+    end
+end
+
+plot(G, 'NodeLabel', G.Nodes.Names, 
+        'NodeColor', color,
+        'MarkerSize', 10 )
+
+%--------Calcolo della dinamica di averaging con nodi stubborn---------
+w=W*ones(15,1);
+D=diag(w);
+P=D\W;
+
+x_curr=x(1:13);         %x(t)
+i=1;                    %contatore
+MaxIter=100;            %iterazioni massime della simulazione
+tol=10e-4;              %Tolleranza come criterio di stop della simulazione
+Q=P(1:13,1:13);         %Matrice Q della dinamica
+Eu=P(1:13,14:15)*x(14:15); %Fattore Eu che dipende dai nodi stubborn
+x_real=(eye(13)-Q)\Eu;  %Calcolo del vettore delle 
+                        %opinioni limite reale secondo il teorema
+x_next=zeros(13,1);     %x(t+1)
+err=1;
+X=zeros(13,MaxIter);    %Matrice degli stati dei nodi nel tempo
+X(:,1)=x_curr;          %Inizializzazione della matrice
+
+while(i<MaxIter && err>tol)
+    
+    x_next=Q*x_curr+Eu; %DINAMICA DI AVERAGING CON NODI STUBBORN
+    
+    err=norm(x_next-x_curr)/norm(x_next);
+ 
+    G.Nodes.x(1:13)=x_next;
+    x_curr=x_next;
+    i=i+1;
+    
+    X(:,i)=x_curr;
+    
+    
+    %--------Plot del grafo------------
+    color=zeros(15,3);
+    for j=1:15
+        if G.Nodes.x(j)>0
+            color(j,1)=G.Nodes.x(j);
+        else
+            color(j,3)=abs(G.Nodes.x(j));
+        end
+    end
+    plot(G, 'NodeLabel', G.Nodes.Names,
+            'NodeColor', color, 
+            'MarkerSize', 10 ,
+            'NodeFontSize', 10)
+    title('Evoluzione delle opinioni nella simulazione della dinamica')
+    pause(0.5);
+    %-------------------------------------
+end
+
+%Plot delle traiettorie dei nodi------------------------
+
+X=X(:,1:i); %Riduzione delle dimensioni per salvare spazio
+t=1:i
+for k=1:13
+figure(2)
+hold on
+
+plot(t,X(k,:),'Linewidth', 2) 
+
+end
+title('Traiettorie delle opinioni di ciascun nodo (non stubborn)')
+xlabel('Tempo')
+ylabel('Opinione')
+legend(Names(1:13))
+
+%-----------------------------------------------------------
+
+%Calcolo dell'errore rispetto al valore reale ottenuto dal teorema
+x_sym=G.Nodes.x(1:13)
+x_real
+err_rel=norm(x_real-x_sym)/norm(x_real)
+
+%Plot del grafo con opinioni reali
+G.Nodes.x(1:13)=x_real;
+
+for i=1:15
+        if G.Nodes.x(i)>0
+            color(i,1)=G.Nodes.x(i);
+        else
+            color(i,3)=abs(G.Nodes.x(i));
+        end
+end
+    figure(3)
+    plot(G, 'NodeLabel', G.Nodes.Names,
+            'NodeColor', color, 
+            'Markersize', 10, 
+            'NodeFontSize', 10)
+    title('Convergenza delle opinioni calcolata direttamente')
+
+  \end{lstlisting}
+
+  \begin{figure}[htb]
+    \center
+     \includegraphics[scale=0.6]{Grafo_2_iterazioni.eps}
+    \caption{Stato delle opinioni dopo 2 iterazioni}
+    \includegraphics[scale=0.6]{Grafo_25_iter.eps}
+    \caption{Stato delle opinioni dopo 25 iterazioni}
+    \includegraphics[scale=0.6]{Traiettoria_opinioni.eps}
+    \caption{traiettoria delle opinioni}
+  \end{figure}
 \end{alphaparts}
   
     
