@@ -445,24 +445,78 @@ end
     \center
      \includegraphics[scale=0.6]{Grafo_2_iterazioni.eps}
     \caption{Stato delle opinioni dopo 2 iterazioni}
+  \end{figure}
+  \begin{figure}
+    \center
     \includegraphics[scale=0.6]{Grafo_25_iter.eps}
     \caption{Stato delle opinioni dopo 25 iterazioni}
+  \end{figure}
+  \begin{figure}
+    \center
     \includegraphics[scale=0.6]{Traiettoria_opinioni.eps}
     \caption{traiettoria delle opinioni}
   \end{figure}
+%-------------------------------------------------------------------------------
+\newpage  
+\questionpart
+
+  Per calcolare analiticamente il vettore di equilibrio della dinamica di averaging con insieme di nodi stubborn dato da $$\mathcal{S}=\{\text{Medici}, \text{Strozzi}, \text{Castellani}, \text{Guadagni}\}$$ ci si può avvalere dell'analogia con le reti elettriche ed effettuare alcune semplificazioni.
+  \\
+  Si può inizialmente andare ad effettuare un operazione di \textit{Glueing} sui nodi che ricevono influenza in maniera univoca da un unico nodo, in particolare:
+
+  \begin{figure}[h]
+    \center
+     \includegraphics[scale=0.35]{Graph_Glueing.png}
+  \end{figure}
+
+  \begin{align*}
+    x_{\text{Lamberteschi}}=x_{\text{Guadagni}} && x_{\text{Albizzi}}=x_{\text{Ginori}} \\ x_{\text{Salviati}}=x_{\text{Pazzi}}=x_{\text{Medici}} && x_{\text{Acciaiuoli}}=x_{\text{Medici}} 
+  \end{align*}
+  \newpage
+  Il grafo può quindi essere ulteriormente semplificato andando ad eliminare i nodi \(\{\text{Barbadori}, \text{Ridolfi}, \text{Tornabuoni}, \text{Guadagni}\}\) e aggiornando di conseguenza i pesi degli archi:
+
+  \begin{figure}[h]
+    \center
+    \includegraphics[scale=0.35]{Grap_Series.png}
+  \end{figure}
+
+  Risulta quindi evidente che, dal momento che i nodi Peruzzi e Bischeri sono esclusivamente influenzati da nodi stubborn con opinione \(u=-1\), necessariamente:
+  \begin{equation*}
+    x_{\text{Peruzzi}}=x_{\text{Bischeri}}=-1
+  \end{equation*}
+
+  Sfruttando ora l'analogia con la rete elettrica è possibile reintrodurre i nodi eliminati tramite la regola della serie, in particolare per il nodo Barbadori vale:
+
+  \begin{gather*}
+    \Phi_{\text{Medici, Castellani}}=\frac{1}{2}\left(x_{\text{Medici}}-x_{\text{Castellani}}\right)=1=\Phi
+  \end{gather*}
+
+  Quindi necessariamente
+  \begin{gather*}
+    \Phi = 1 = 1\left(x_{\text{Medici}}-x_{\text{Barbadori}}\right) \Rightarrow\\
+    \Rightarrow x_{\text{Barbadori}} = 0
+  \end{gather*}
+
+  Analogamente per il resto dei nodi eliminati con la regola della serie vale:
+  \begin{gather*}
+    x_{\text{Barbadori}}=x_{\text{Ridolfi}}=x_{\text{Tornabuoni}}=x_{\text{Albizzi}}=0
+  \end{gather*}
+
+  Infine per i nodi eliminati tramite il processo di \textit{glueing} vale:
+  \
+
+
+
 \end{alphaparts}
   
     
 
-\section*{Using the \texttt{section} Macro}
-  The starred \texttt{section*} works as well.
 
-  \lipsum[11]
 % Sometimes questions get separated from their bodies. Use a \newpage to force
 % them to wrap to the next page.
 
   
 % Use \renewcommand{\questiontype}{<text>} to change what word is displayed
 % before numbered questions
-\renewcommand{\questiontype}{Task}
+%\renewcommand{\questiontype}{Task}
 \end{document}

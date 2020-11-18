@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.24)  18 NOV 2020 17:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.24)  18 NOV 2020 19:53
 entering extended mode
 **c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/homework.tex
 (c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/homework.tex
@@ -661,7 +661,7 @@ Package epstopdf Info: Source file: <Grafo_25_iter.eps>
 (epstopdf)                    date: 2020-11-18 17:31:19
 (epstopdf)                    size: 44984 bytes
 (epstopdf)             Command: <epstopdf --outfile=Grafo_25_iter-eps-converted-to.pdf Grafo_25_iter.eps>
-(epstopdf)             \includegraphics on input line 448.
+(epstopdf)             \includegraphics on input line 451.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -669,7 +669,7 @@ pdfTeX warning: pdflatex (file c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/Grafo
 <Grafo_25_iter-eps-converted-to.pdf, id=189, 421.575pt x 316.18124pt>
 File: Grafo_25_iter-eps-converted-to.pdf Graphic file (type pdf)
 <use Grafo_25_iter-eps-converted-to.pdf>
-Package pdftex.def Info: Grafo_25_iter-eps-converted-to.pdf  used on input line 448.
+Package pdftex.def Info: Grafo_25_iter-eps-converted-to.pdf  used on input line 451.
 (pdftex.def)             Requested size: 252.94695pt x 189.7102pt.
 Package epstopdf Info: Source file: <Traiettoria_opinioni.eps>
 (epstopdf)                    date: 2020-11-18 17:27:50
@@ -678,7 +678,7 @@ Package epstopdf Info: Source file: <Traiettoria_opinioni.eps>
 (epstopdf)                    date: 2020-11-18 17:49:39
 (epstopdf)                    size: 11522 bytes
 (epstopdf)             Command: <epstopdf --outfile=Traiettoria_opinioni-eps-converted-to.pdf Traiettoria_opinioni.eps>
-(epstopdf)             \includegraphics on input line 450.
+(epstopdf)             \includegraphics on input line 456.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -686,42 +686,45 @@ pdfTeX warning: pdflatex (file c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/Traie
 <Traiettoria_opinioni-eps-converted-to.pdf, id=190, 421.575pt x 316.18124pt>
 File: Traiettoria_opinioni-eps-converted-to.pdf Graphic file (type pdf)
 <use Traiettoria_opinioni-eps-converted-to.pdf>
-Package pdftex.def Info: Traiettoria_opinioni-eps-converted-to.pdf  used on input line 450.
+Package pdftex.def Info: Traiettoria_opinioni-eps-converted-to.pdf  used on input line 456.
 (pdftex.def)             Requested size: 252.94695pt x 189.7102pt.
-
-LaTeX Warning: Float too large for page by 100.53035pt on input line 452.
-
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 457.
-("C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 457.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 468.
- [10] [11 <c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/Grafo_2_iterazioni-eps-converted-to.pdf> <c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/Grafo_25_iter-eps-converted-to.pdf> <c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/Traiettoria_opinioni-eps-converted-to.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 468.
+[10 <c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/Grafo_2_iterazioni-eps-converted-to.pdf>] [11 <c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/Grafo_25_iter-eps-converted-to.pdf> <c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/Traiettoria_opinioni-eps-converted-to.pdf>]
+<Graph_Glueing.png, id=242, 900.966pt x 582.978pt>
+File: Graph_Glueing.png Graphic file (type png)
+<use Graph_Glueing.png>
+Package pdftex.def Info: Graph_Glueing.png  used on input line 469.
+(pdftex.def)             Requested size: 315.34282pt x 204.04535pt.
+ [12 <c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/Graph_Glueing.png (PNG copy)>]
+<Grap_Series.png, id=249, 898.557pt x 582.978pt>
+File: Grap_Series.png Graphic file (type png)
+<use Grap_Series.png>
+Package pdftex.def Info: Grap_Series.png  used on input line 480.
+(pdftex.def)             Requested size: 314.49966pt x 204.04535pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 519.
+ [13 <c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/Grap_Series.png (PNG copy)>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 519.
  (c:/Users\giuli\Documents\GitHub\Dym_Net_HW1\homework.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 468.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 468.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 519.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 519.
 Package rerunfilecheck Info: File `homework.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 468.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 519.
  )
 (\end occurred when \ifx on line 284 was incomplete)
 (\end occurred when \ifx on line 166 was incomplete)
 (\end occurred when \ifx on line 29 was incomplete) 
 Here is how much of TeX's memory you used:
- 14663 strings out of 480799
- 219743 string characters out of 2905528
- 804549 words of memory out of 3000000
- 30180 multiletter control sequences out of 15000+200000
- 571830 words of font info for 66 fonts, out of 3000000 for 9000
+ 14639 strings out of 480799
+ 219375 string characters out of 2905528
+ 692662 words of memory out of 3000000
+ 30151 multiletter control sequences out of 15000+200000
+ 571193 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,14n,49p,3288b,1958s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on c:/Users\giuli\Documents\GitHub\Dym_Net_HW1\homework.pdf (11 pages, 630263 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on c:/Users\giuli\Documents\GitHub\Dym_Net_HW1\homework.pdf (13 pages, 751064 bytes).
 PDF statistics:
- 335 PDF objects out of 1000 (max. 8388607)
- 163 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 344 PDF objects out of 1000 (max. 8388607)
+ 170 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
