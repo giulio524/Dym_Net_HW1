@@ -240,8 +240,8 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr8.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr6.tfm
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmtt10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmtk10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmtt10.tfm
 INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\homework.aux
 INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\homework.out
 INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\homework.out
@@ -278,3 +278,5 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\lm\lmtk10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\lm\lmtk10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\lm\lmtt10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\lm\lmtt10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msbm10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msbm10.pfb

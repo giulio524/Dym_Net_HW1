@@ -20,11 +20,12 @@
 \usepackage{bbm}
 \usepackage{amsmath}
 
+
 \begin{document}
 \maketitle
 
-\question
-
+\section{}% --------------ESERCIZIO 1------------------------------
+  
   \begin{figure}[htb]\centering
     \includegraphics[scale=0.17]{ES1_Fig1.jpg}
   \end{figure}
@@ -46,12 +47,13 @@
   \end{align*}
   
   \begin{alphaparts}
+  %----------------------------------------------------------------------------
     \questionpart
     Tutti i possibili colli di bottiglia del grafo hanno capacità pari a 5, quindi per ostruire qualsiasi tipo di flow unitario da \(o\) a \(d\) bisogna eliminare una capacità \(C^*\) tale che
     \begin{equation*}
       C^*<4
     \end{equation*}
-
+%------------------------------------------------------------------------------
     \questionpart
     Dal momento che vale il teorema del \textit{Max Flow - Min Cut}, le due unità di capacità devono essere distribuite in modo tale da aumentare lacapacità del minimo taglio. Poiché ci sono ben tre tagli su 4 che rappresentano un minimo taglio \((U_1, U_2, U_4)\) è necessario aumentare la capacità su archi in comune a questi tre tagli.\\
     Una scelta possibile potrebbe essere quella di aggiungere un'unità di capacità ciascuno agli archi \(e_1\) ed \(e_4\) in modo tale che i tagli risultino:
@@ -65,7 +67,7 @@
 
   Aumentando in questo modo il massimo troughput da 5 a 6
 
-
+%------------------------------------------------------------------------------------
   \questionpart
   Assegnati i seguenti delay a ciascun arco:
   \begin{align*}
@@ -103,7 +105,7 @@
   \begin{align*}
     \frac{2}{3}\left(\frac{2}{3}+1 \right) + \frac{5}{9} + \frac{1}{3} + \frac{1}{3} + \frac{5}{9} + \frac{1}{3} + \frac{2}{3}\left(\frac{2}{3}+1 \right) = \frac{13}{3}
   \end{align*}
-
+%-------------------------------------------------------------------------------------
   \questionpart
 
   Calcolare l'ottimo di sistema equivale a minimizzare il ritardo totale in funzione del flusso su ciascun path \(o\) - \(d\):
@@ -132,14 +134,14 @@
   \begin{equation*}
     \frac{3}{4}\left(\frac{3}{4}+1\right)+\frac{1}{4}\left(\frac{5}{4}+1\right)+\frac{1}{2}+\frac{1}{4}\left(\frac{5}{4}+1\right)+\frac{3}{4}\left(\frac{3}{4}+1\right)= \frac{17}{4}
   \end{equation*}
-
+%--------------------------------------------------------------------------------------
   \questionpart
   Il costo totale dell'anarchia è dato dal rapporto tra il il ritardo totale dell'ottimo di sistema e il ritardo totale dell'equilibrio di Wardrop
 
   \begin{equation*}
     \frac{\frac{13}{3}}{\frac{17}{4}}=\frac{52}{51}
   \end{equation*}
-  
+ %------------------------------------------------------------------------------------ 
   \questionpart
   Siano \(f^*_{e_i}\) e \(f^{(w)}_{e_i}\) i flussi su ciascun arco \(e_i\) rispettivamente nella configurazione dell'ottimo di sistema e in quella di equilibrio di Wardrop. Sia il ritardo totale su ciascun arco \(e_i\) definito come \(C_{e_i}(f_e)=d_{e_i}f_{e_i}\). La configurazione ottimale dei pedaggi per ottenere un costo dell'anarchia unitario è la seguente:
   \begin{equation*}
@@ -158,124 +160,137 @@
 
   \end{alphaparts}
 
-\question
-  This question's number will be auto-incremented.
-
-  \lipsum[2]
-
-\question*{Super Fancy Named Question}
-  This question was given a fancy name!
-
-  \lipsum[3]
-
-% Sometimes questions get separated from their bodies. Use a \newpage to force
-% them to wrap to the next page.
-\newpage
-\question
-  Using the \texttt{induction} environment is a great way to typeset induction proofs!
-  \begin{induction}
-    \basecase
-      Here I have my base case.
-      This is usually about 1-2 lines of text that is not entirely difficult to come up with.
-      That doesn't mean it's not important though!
-    \indhyp
-      Assume cool things to make proof work. Look, math:
-      \[a^2 + b^2 = c^2\]
-    \indstep
-      Prove all the things.  When in doubt, write in Latin, because things
-      written in Latin sound more true.  Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit. Maecenas tempor risus in dapibus aliquam. Donec at
-      euismod dui. In libero turpis, blandit quis vestibulum ac, rutrum sit amet
-      est. Suspendisse nec lacus vel dui lobortis lacinia at sit amet risus.
-      Fusce dui ex, imperdiet nec finibus ut, bibendum a lacus.
-  \end{induction}
-
-  Therefore, we have proven the claim by induction in the \texttt{induction} environment.
-
-\question
-  Use the arabicparts environment to include the questionCounter number in the list.
-  \begin{arabicparts}
-    \questionpart Use \LaTeX
-    \questionpart ???
-    \questionpart Profit!
-  \end{arabicparts}
-
-  \lipsum[7]
-
-\question
-  Use the alphaparts environment for letters instead of numbers.
+  
+\section{}%---------------ESERCIZIO 2-----------------------------------
   \begin{alphaparts}
     \questionpart
-      Use \LaTeX
-    \questionpart ???
-    \questionpart Profit!
+
+    La matrice dei pesi \(W\) è la seguente:
+    \begin{equation*}
+      W=
+      \begin{bmatrix}
+        a & 1 & 0 & 0 \\
+        0 & 0 & 1 & 1 \\
+        0 & 0 & 0 & 1 \\
+        1 & 1 & 0 & 0
+      \end{bmatrix}
+    \end{equation*}
+    la matrice dei pesi normalizzata è data da:
+    \begin{align*}
+      \omega=\begin{pmatrix}
+        a+1 \\ 2 \\ 1 \\ 2
+      \end{pmatrix} && \Rightarrow &&
+      P=\begin{bmatrix}
+        \frac{a}{a+1} & \frac{1}{a+1} & 0 & 0 \\
+        0 & 0 & \frac{1}{2} & \frac{1}{2} \\
+        0 & 0 & 0 & 1 \\
+        \frac{1}{2} & \frac{1}{2} & 0 & 0
+      \end{bmatrix}
+    \end{align*}
+
+    Di conseguenza il laplaciano è dato da:
+    \begin{equation*}
+      L=D-W= \begin{bmatrix}
+        1 & -1 & 0 & 0 \\
+        0 & 2 & -1 & -1 \\
+        0 & 0 & 1 & -1 \\
+        -1 & -1 & 0 & 2 \\
+      \end{bmatrix}
+    \end{equation*}
+    %---------------------------------------------------------------------------------
+    \questionpart
+    La dinamica di opinione di French-De Groot è data da:
+    \begin{equation*}
+      x(t+1)=Px(t)
+    \end{equation*}
+    dove \(x(t)=(x_1(t),x_2(t),x_3(t),x_4(t))\) e \(x_i(t)\) rappresenta il valore dell'opinione del nodo \(i\) al tempo \(t\).
+
+    %----------------------------------------------------------------------------------
+
+    \questionpart
+    Affinchè l'opinione su \(\mathcal{G}\) converga ad un consenso il grafo deve essere fortemente connesso ed aperiodico. Date le ridotte dimensioni del grafo è possibile verificare queste due proprietà manualmente, notando che è possibile raggiungere qualsiasi nodo a partire da qualsiasi posizione sul grafo e che ad esempio il nodo 4 ha un ciclo di lunghezza 2 e un altro di lunghezza 3. Connessione ed aperiodicità sono indipendenti dal valore di \(a\) pertanto vale:
+    \begin{align*}
+      \lim\limits_{t \rightarrow \infty} x(t)=\pi ' x(0) && \forall a\geq 0
+    \end{align*}
+
+    Dal momento che \(\mathcal{G}\) è bilanciato la misura di probabilità invariante \(\pi \) è proporzionale al vettore \(\omega\). In particolare:
+    \begin{equation*}
+      \pi = \frac{\omega}{\mathbb{1}'\omega}=\begin{pmatrix}
+        \frac{a+1}{a+6} & \frac{2}{a+6} & \frac{1}{a+6} & \frac{2}{a+6}
+      \end{pmatrix}'
+    \end{equation*}
+
+    Pertanto il valore del consenso converge ad un valore finito fintanto che \(a \neq -6\), condizione automaticamente verificata dal momento che \(a \geq 0\)
+    %--------------------------------------------------------------------------
+    \questionpart
+
+    Nel caso particolare in cui \(a=0\) si ha:
+    \begin{equation*}
+      \pi = \begin{pmatrix}
+        \frac{1}{6} & \frac{1}{3} & \frac{1}{6} & \frac{1}{3}
+      \end{pmatrix}'
+    \end{equation*} 
+
+    Per cui, date le condizioni iniziali \(x(0)\), il consenso raggiunge il seguente valore: 
+    \begin{align*}
+      \lim\limits_{t \rightarrow \infty} x_i(t)=\pi ' x(0) = \frac{1}{3} && \forall i = 1 \dots 4
+    \end{align*}
+
+    %----------------------------------------------------------------------------------
+    \questionpart
+    Poiché il consenso viene raggiunto \(\forall a \geq 0 \), date le condizioni iniziali \(x(0)\), vale la seguente:
+    \begin{equation*}
+      \lim\limits_{t \rightarrow \infty} x_1(t)=\pi ' x(0) = \frac{1}{a+6}(-a+1+2-1+2) = \frac{2-a}{a+6}
+    \end{equation*}
+
+    segue quindi che:
+    \begin{align*}
+      \lim\limits_{t \rightarrow \infty} x_1(t) \leq 0 &&\Rightarrow&& \frac{2-a}{a+6} \leq 0 && \Rightarrow && a \geq 2 
+    \end{align*}
+
+    %-------------------------------------------------------------------------------
+
+    \questionpart
+
+    Date \(x_i(0)\) variabili aleatorie indipendenti e identicamente distribuite tali che \(Var(x_i(0))=1 \text{ }\forall i =1 \dots 4\), vale la seguente:
+
+    \begin{equation*}
+      \lim\limits_{t \rightarrow \infty} x_1(t) = \frac{a+1}{a+6}x_1(0)+\frac{2}{a+6}x_2(0)+ \frac{1}{a+6}x_3(0)+\frac{2}{a+6}x_4(0)
+    \end{equation*}
+
+    Poiché le variabili sono i.i.d. e \(Var(x_i(0))=1 \text{ }\forall i =1 \dots 4\) vale:
+
+    \begin{gather*}
+      Var\left(\lim\limits_{t \rightarrow \infty} x_1(t)\right) = \left(\frac{a+1}{a+6}\right)^2Var(x_1(0))+\left(\frac{2}{a+6}\right)^2Var(x_2(0))+\\+ \left(\frac{1}{a+6}\right)^2Var(x_3(0))+\left(\frac{2}{a+6}\right)^2Var(x_4(0)) = \\
+      = \frac{a^2 + 2a + 10}{(a+6)^2}=v(a)
+    \end{gather*}
+
+    Essendo \(v(a)\) una funzione convessa, si verifica facilmente che raggiunge un minimo per:
+    \begin{equation*}
+      a= \frac{4}{5}
+    \end{equation*}
+    Che rappresenta il valore di \(a\) per cui viene minimizzata la varianza del consenso.
+
   \end{alphaparts}
-
-\question
-    Question part numbers are auto-incremented within the same question, so if you have some question parts...
-
-    \begin{alphaparts}
-        \questionpart
-            Use \LaTeX
-        \questionpart ???
-    \end{alphaparts}
-
-    Followed by some additional text, followed by some more question parts:
-
-    \begin{alphaparts}
-        \questionpart Profit!
-    \end{alphaparts}
-
-    All parts will be continuously numbered.
-
-\question
-  Question numbers continue to auto-increment, regardless of question type.
-
-  \lipsum[4]
-
-% Use \renewcommand{\questiontype}{<text>} to change what word is displayed
-% before numbered questions
-\renewcommand{\questiontype}{Task}
-\question
-  This question has a different question type!
-
-  \lipsum[5]
-
-\renewcommand{\questiontype}{Question}
-
-\question
-  You can still do things like nesting lists inside of these environments.
-  \begin{alphaparts}
-    \questionpart Use \LaTeX
-      \begin{enumerate}
-        \item Open terminal
-        \item Open vim
-        \item Write LaTeX
-      \end{enumerate}
-    \questionpart ???
-    \questionpart Profit!
-  \end{alphaparts}
-
-  \lipsum[9]
-
-% Use the \setcounter{questionCounter}{<x>} to force the question number to a
-% particular question. If your written homework's question start at number 9001,
-% use the following
-\setcounter{questionCounter}{9000}
-\question
-  \href{https://www.youtube.com/watch?v=SiMHTK15Pik}{It's over 9000!!!}
-
-  \lipsum[6]
+  
 
 
-\section{}
-  You can also use the \texttt{section} macro for starting a question.
 
-  \lipsum[10]
+
+
+
+\section{}%---------------ESERCIZIO 3 ------------------------------------------
+  
 
 \section*{Using the \texttt{section} Macro}
   The starred \texttt{section*} works as well.
 
   \lipsum[11]
+% Sometimes questions get separated from their bodies. Use a \newpage to force
+% them to wrap to the next page.
 
+  
+% Use \renewcommand{\questiontype}{<text>} to change what word is displayed
+% before numbered questions
+\renewcommand{\questiontype}{Task}
 \end{document}
