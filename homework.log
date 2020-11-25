@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.24)  18 NOV 2020 21:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.24)  25 NOV 2020 12:30
 entering extended mode
 **c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/homework.tex
 (c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/homework.tex
@@ -474,76 +474,83 @@ Package caption Info: wrapfig package is loaded.
 )
 \c@subfigure=\count296
 \c@subtable=\count297
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count298
+\float@exts=\toks41
+\float@box=\box57
+\@float@everytoks=\toks42
+\@floatcapt=\box58
 ) (c:/Users\giuli\Documents\GitHub\Dym_Net_HW1\homework.aux)
 \openout1 = `homework.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 28.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count298
+\scratchcounter=\count299
 \scratchdimen=\dimen198
-\scratchbox=\box57
-\nofMPsegments=\count299
-\nofMParguments=\count300
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count301
+\scratchbox=\box59
+\nofMPsegments=\count300
+\nofMParguments=\count301
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count302
 \MPscratchDim=\dimen199
-\MPnumerator=\count302
-\makeMPintoPDFobject=\count303
-\everyMPtoPDFconversion=\toks42
+\MPnumerator=\count303
+\makeMPintoPDFobject=\count304
+\everyMPtoPDFconversion=\toks44
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 26.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 28.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 26.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 28.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 26.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 28.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 26.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 28.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 26.
+(Font)              <10.95> on input line 28.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 26.
+(Font)              <8> on input line 28.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 26.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
+(Font)              <6> on input line 28.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Package xypdf Info: Line width: 0.39998pt on input line 26.
-\c@lstlisting=\count304
-\AtBeginShipoutBox=\box58
-Package hyperref Info: Link coloring OFF on input line 26.
+Package xypdf Info: Line width: 0.39998pt on input line 28.
+\c@lstlisting=\count305
+\AtBeginShipoutBox=\box60
+Package hyperref Info: Link coloring OFF on input line 28.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  ("C:\Program Files\MiKTeX 2.9\tex/latex/refcount\refcount.sty"
@@ -551,89 +558,93 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) ("C:\Program Files\MiKTeX 2.9\tex/generic/gettitlestring\gettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count305
+\c@section@level=\count306
 )
-LaTeX Info: Redefining \ref on input line 26.
-LaTeX Info: Redefining \pageref on input line 26.
-LaTeX Info: Redefining \nameref on input line 26.
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
  (c:/Users\giuli\Documents\GitHub\Dym_Net_HW1\homework.out) (c:/Users\giuli\Documents\GitHub\Dym_Net_HW1\homework.out)
 \@outlinefile=\write5
 \openout5 = `homework.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 <ES1_Fig1.jpg, id=3, 1943.46075pt x 1012.9845pt>
 File: ES1_Fig1.jpg Graphic file (type jpg)
 <use ES1_Fig1.jpg>
-Package pdftex.def Info: ES1_Fig1.jpg  used on input line 32.
+Package pdftex.def Info: ES1_Fig1.jpg  used on input line 39.
 (pdftex.def)             Requested size: 330.38396pt x 172.20508pt.
  [1
 
 {C:/Users/giuli/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/ES1_Fig1.jpg>] [2] [3] [4]
-Overfull \hbox (33.76814pt too wide) in paragraph at lines 207--209
+Overfull \hbox (33.76814pt too wide) in paragraph at lines 226--228
 \T1/lmr/m/n/10.95 dove $\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 t\OT1/lmr/m/n/10.95 ) = (\OML/lmm/m/it/10.95 x[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 t\OT1/lmr/m/n/10.95 )\OML/lmm/m/it/10.95 ; x[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 t\OT1/lmr/m/n/10.95 )\OML/lmm/m/it/10.95 ; x[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 t\OT1/lmr/m/n/10.95 )\OML/lmm/m/it/10.95 ; x[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 t\OT1/lmr/m/n/10.95 ))$ \T1/lmr/m/n/10.95 e $\OML/lmm/m/it/10.95 x[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 t\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 rap-p-re-senta il val-ore dell'opinione
  []
 
-[5] [6]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 305.
+LaTeX Font Info:    Trying to load font information for U+bbm on input line 239.
+("C:\Program Files\MiKTeX 2.9\tex/latex/bbm\ubbm.fd"
+File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
+) [5] [6]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 324.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\t1pcr.fd"
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 322.
+) [7]
+LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 341.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ts1pcr.fd"
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
-) [7]
-Overfull \hbox (34.5788pt too wide) in paragraph at lines 337--339
+)
+Overfull \hbox (34.5788pt too wide) in paragraph at lines 356--358
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (50.77896pt too wide) in paragraph at lines 353--354
+Overfull \hbox (50.77896pt too wide) in paragraph at lines 372--373
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (72.37918pt too wide) in paragraph at lines 361--362
+Overfull \hbox (72.37918pt too wide) in paragraph at lines 380--381
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (34.5788pt too wide) in paragraph at lines 363--364
+Overfull \hbox (34.5788pt too wide) in paragraph at lines 382--383
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-
-Overfull \hbox (18.37863pt too wide) in paragraph at lines 365--366
+[8]
+Overfull \hbox (18.37863pt too wide) in paragraph at lines 384--385
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (7.57852pt too wide) in paragraph at lines 368--369
+Overfull \hbox (7.57852pt too wide) in paragraph at lines 387--388
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[8]
-Overfull \hbox (12.97858pt too wide) in paragraph at lines 373--375
+
+Overfull \hbox (12.97858pt too wide) in paragraph at lines 392--394
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (50.77896pt too wide) in paragraph at lines 397--398
+Overfull \hbox (50.77896pt too wide) in paragraph at lines 416--417
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-
-Overfull \hbox (23.77869pt too wide) in paragraph at lines 413--414
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (23.77869pt too wide) in paragraph at lines 420--421
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
 [9]
-Overfull \hbox (2.17847pt too wide) in paragraph at lines 440--442
+Overfull \hbox (23.77869pt too wide) in paragraph at lines 432--433
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (23.77869pt too wide) in paragraph at lines 439--440
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (2.17847pt too wide) in paragraph at lines 459--461
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -644,15 +655,15 @@ Package epstopdf Info: Source file: <Grafo_2_iterazioni.eps>
 (epstopdf)                    date: 2020-11-18 17:31:18
 (epstopdf)                    size: 45111 bytes
 (epstopdf)             Command: <epstopdf --outfile=Grafo_2_iterazioni-eps-converted-to.pdf Grafo_2_iterazioni.eps>
-(epstopdf)             \includegraphics on input line 446.
+(epstopdf)             \includegraphics on input line 465.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/Grafo_2_iterazioni-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Grafo_2_iterazioni-eps-converted-to.pdf, id=188, 421.575pt x 316.18124pt>
+<Grafo_2_iterazioni-eps-converted-to.pdf, id=179, 421.575pt x 316.18124pt>
 File: Grafo_2_iterazioni-eps-converted-to.pdf Graphic file (type pdf)
 <use Grafo_2_iterazioni-eps-converted-to.pdf>
-Package pdftex.def Info: Grafo_2_iterazioni-eps-converted-to.pdf  used on input line 446.
+Package pdftex.def Info: Grafo_2_iterazioni-eps-converted-to.pdf  used on input line 465.
 (pdftex.def)             Requested size: 252.94695pt x 189.7102pt.
 Package epstopdf Info: Source file: <Grafo_25_iter.eps>
 (epstopdf)                    date: 2020-11-18 17:27:24
@@ -661,15 +672,15 @@ Package epstopdf Info: Source file: <Grafo_25_iter.eps>
 (epstopdf)                    date: 2020-11-18 17:31:19
 (epstopdf)                    size: 44984 bytes
 (epstopdf)             Command: <epstopdf --outfile=Grafo_25_iter-eps-converted-to.pdf Grafo_25_iter.eps>
-(epstopdf)             \includegraphics on input line 451.
+(epstopdf)             \includegraphics on input line 470.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/Grafo_25_iter-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Grafo_25_iter-eps-converted-to.pdf, id=189, 421.575pt x 316.18124pt>
+<Grafo_25_iter-eps-converted-to.pdf, id=180, 421.575pt x 316.18124pt>
 File: Grafo_25_iter-eps-converted-to.pdf Graphic file (type pdf)
 <use Grafo_25_iter-eps-converted-to.pdf>
-Package pdftex.def Info: Grafo_25_iter-eps-converted-to.pdf  used on input line 451.
+Package pdftex.def Info: Grafo_25_iter-eps-converted-to.pdf  used on input line 470.
 (pdftex.def)             Requested size: 252.94695pt x 189.7102pt.
 Package epstopdf Info: Source file: <Traiettoria_opinioni.eps>
 (epstopdf)                    date: 2020-11-18 17:27:50
@@ -678,63 +689,64 @@ Package epstopdf Info: Source file: <Traiettoria_opinioni.eps>
 (epstopdf)                    date: 2020-11-18 17:49:39
 (epstopdf)                    size: 11522 bytes
 (epstopdf)             Command: <epstopdf --outfile=Traiettoria_opinioni-eps-converted-to.pdf Traiettoria_opinioni.eps>
-(epstopdf)             \includegraphics on input line 456.
+(epstopdf)             \includegraphics on input line 475.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/Traiettoria_opinioni-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Traiettoria_opinioni-eps-converted-to.pdf, id=190, 421.575pt x 316.18124pt>
+<Traiettoria_opinioni-eps-converted-to.pdf, id=181, 421.575pt x 316.18124pt>
 File: Traiettoria_opinioni-eps-converted-to.pdf Graphic file (type pdf)
 <use Traiettoria_opinioni-eps-converted-to.pdf>
-Package pdftex.def Info: Traiettoria_opinioni-eps-converted-to.pdf  used on input line 456.
+Package pdftex.def Info: Traiettoria_opinioni-eps-converted-to.pdf  used on input line 475.
 (pdftex.def)             Requested size: 252.94695pt x 189.7102pt.
-[10 <c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/Grafo_2_iterazioni-eps-converted-to.pdf>] [11 <c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/Grafo_25_iter-eps-converted-to.pdf> <c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/Traiettoria_opinioni-eps-converted-to.pdf>]
-<Graph_Glueing.png, id=242, 900.966pt x 582.978pt>
+[10] [11 <c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/Grafo_2_iterazioni-eps-converted-to.pdf> <c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/Grafo_25_iter-eps-converted-to.pdf>]
+<Graph_Glueing.png, id=233, 900.966pt x 582.978pt>
 File: Graph_Glueing.png Graphic file (type png)
 <use Graph_Glueing.png>
-Package pdftex.def Info: Graph_Glueing.png  used on input line 469.
+Package pdftex.def Info: Graph_Glueing.png  used on input line 488.
 (pdftex.def)             Requested size: 315.34282pt x 204.04535pt.
- [12 <c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/Graph_Glueing.png (PNG copy)>]
-<Grap_Series.png, id=249, 898.557pt x 582.978pt>
+ [12 <c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/Traiettoria_opinioni-eps-converted-to.pdf>]
+<Grap_Series.png, id=248, 898.557pt x 582.978pt>
 File: Grap_Series.png Graphic file (type png)
 <use Grap_Series.png>
-Package pdftex.def Info: Grap_Series.png  used on input line 480.
+Package pdftex.def Info: Grap_Series.png  used on input line 499.
 (pdftex.def)             Requested size: 314.49966pt x 204.04535pt.
- [13 <c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/Grap_Series.png (PNG copy)>]
-Overfull \hbox (11.47896pt too wide) in paragraph at lines 515--516
+ [13 <c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/Graph_Glueing.png (PNG copy)> <c:/Users/giuli/Documents/GitHub/Dym_Net_HW1/Grap_Series.png (PNG copy)>]
+Overfull \hbox (11.47896pt too wide) in paragraph at lines 534--535
 \T1/lmr/m/n/10.95 codice del punto prece-dente e sull'algoritmo che sfrutta la sub-stocasticità
  []
 
 
-Overfull \hbox (18.37863pt too wide) in paragraph at lines 518--519
+Overfull \hbox (18.37863pt too wide) in paragraph at lines 537--538
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 552.
 [14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 552.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 571.
+ [15]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 571.
  (c:/Users\giuli\Documents\GitHub\Dym_Net_HW1\homework.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 552.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 552.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 571.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 571.
 Package rerunfilecheck Info: File `homework.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 552.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 571.
  )
-(\end occurred when \ifx on line 284 was incomplete)
-(\end occurred when \ifx on line 166 was incomplete)
-(\end occurred when \ifx on line 29 was incomplete) 
+(\end occurred when \ifx on line 303 was incomplete)
+(\end occurred when \ifx on line 185 was incomplete)
+(\end occurred when \ifx on line 36 was incomplete) 
 Here is how much of TeX's memory you used:
- 14666 strings out of 480799
- 219719 string characters out of 2905528
+ 14732 strings out of 480799
+ 220905 string characters out of 2905528
  692662 words of memory out of 3000000
- 30156 multiletter control sequences out of 15000+200000
- 571193 words of font info for 64 fonts, out of 3000000 for 9000
+ 30211 multiletter control sequences out of 15000+200000
+ 571589 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,14n,49p,3288b,1958s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on c:/Users\giuli\Documents\GitHub\Dym_Net_HW1\homework.pdf (14 pages, 755920 bytes).
+ 46i,14n,49p,3288b,1968s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc} <C:\Users\giuli\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/bbm/dpi657\bbm10.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on c:/Users\giuli\Documents\GitHub\Dym_Net_HW1\homework.pdf (15 pages, 755244 bytes).
 PDF statistics:
- 373 PDF objects out of 1000 (max. 8388607)
- 192 named destinations out of 1000 (max. 500000)
+ 379 PDF objects out of 1000 (max. 8388607)
+ 193 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

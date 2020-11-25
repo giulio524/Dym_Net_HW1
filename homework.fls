@@ -193,6 +193,8 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty
 INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\homework.aux
 INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\homework.aux
 OUTPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\homework.aux
@@ -254,19 +256,24 @@ INPUT C:\Users\giuli\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmri10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr8.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr6.tfm
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\bbm\ubbm.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\bbm\ubbm.fd
+INPUT C:\Users\giuli\AppData\Local\MiKTeX\2.9\fonts\tfm\public\bbm\bbm10.tfm
+INPUT C:\Users\giuli\AppData\Local\MiKTeX\2.9\fonts\tfm\public\bbm\bbm8.tfm
+INPUT C:\Users\giuli\AppData\Local\MiKTeX\2.9\fonts\tfm\public\bbm\bbm6.tfm
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\adobe\courier\pcrr8t.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\adobe\courier\pcrr8t.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\adobe\courier\pcrr8t.tfm
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1pcr.fd
-INPUT C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1pcr.fd
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\adobe\courier\pcrr8c.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr9.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\vf\adobe\courier\pcrr8t.vf
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\adobe\courier\pcrr8r.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\vf\adobe\courier\pcrr8t.vf
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\adobe\courier\pcrr8r.tfm
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1pcr.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1pcr.fd
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\adobe\courier\pcrr8c.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\vf\adobe\courier\pcrr8c.vf
 INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Grafo_2_iterazioni.eps
 INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\Grafo_2_iterazioni.eps
@@ -312,6 +319,8 @@ INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\homework.aux
 INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\homework.out
 INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW1\homework.out
 INPUT C:\Program Files\MiKTeX 2.9\fonts\enc\dvips\base\8r.enc
+INPUT C:\Users\giuli\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\bbm\dpi657\bbm10.pk
+INPUT C:\Users\giuli\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\bbm\dpi657\bbm10.pk
 INPUT C:\Program Files\MiKTeX 2.9\fonts\enc\dvips\lm\lm-mathit.enc
 INPUT C:\Program Files\MiKTeX 2.9\fonts\enc\dvips\lm\lm-mathex.enc
 INPUT C:\Program Files\MiKTeX 2.9\fonts\enc\dvips\lm\lm-ec.enc
@@ -341,7 +350,5 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\lm\lmsy10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\lm\lmsy10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\lm\lmsy8.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\lm\lmsy8.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msbm10.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msbm10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\urw\courier\ucrr8a.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\urw\courier\ucrr8a.pfb

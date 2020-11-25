@@ -22,9 +22,16 @@
 \usepackage{mcode}
 \usepackage{epstopdf}
 \usepackage{subcaption}
+\usepackage{float}
+\usepackage{bbm}
 
 \begin{document}
 \maketitle
+
+\begin{center}
+  Realizzato in collaborazione con Alfredo Baione (s279328)
+\end{center}
+
 
 \section{}% --------------ESERCIZIO 1------------------------------
   
@@ -53,11 +60,11 @@
     \questionpart
     Tutti i possibili colli di bottiglia del grafo hanno capacità pari a 5, quindi per ostruire qualsiasi tipo di flow unitario da \(o\) a \(d\) bisogna eliminare una capacità \(C^*\) tale che
     \begin{equation*}
-      C^*<4
+      C^*=5
     \end{equation*}
 %------------------------------------------------------------------------------
     \questionpart
-    Dal momento che vale il teorema del \textit{Max Flow - Min Cut}, le due unità di capacità devono essere distribuite in modo tale da aumentare lacapacità del minimo taglio. Poiché ci sono ben tre tagli su 4 che rappresentano un minimo taglio \((U_1, U_2, U_4)\) è necessario aumentare la capacità su archi in comune a questi tre tagli.\\
+    Dal momento che vale il teorema del \textit{Max Flow - Min Cut}, le due unità di capacità devono essere distribuite in modo tale da aumentare la capacità del minimo taglio. Poiché ci sono ben tre tagli su quattro che rappresentano un minimo taglio \((U_1, U_2, U_4)\) è necessario aumentare la capacità su archi in comune a questi tre tagli.\\
     Una scelta possibile potrebbe essere quella di aggiungere un'unità di capacità ciascuno agli archi \(e_1\) ed \(e_4\) in modo tale che i tagli risultino:
     
   \begin{align*}
@@ -97,15 +104,21 @@
     z_2>0 \Rightarrow && 6z_2 + z_3 + 2 \leq 2z_3+z_1+z_2+3 && \Rightarrow z_2 \leq \frac{1}{3}\\
   \end{align*}
   
-  Queste condizioni implicano che un possibile vettore di flusso che soddisfi le condizioni di Wardrop sia il seguente:
+  Queste condizioni implicano che un possibile vettore di flusso sui path che soddisfi le condizioni di Wardrop sia il seguente:
 
   \begin{equation*}
     z_{\text{Wardrop}} = z_W = \left(\frac{1}{3},\frac{1}{3},\frac{1}{3}\right)
   \end{equation*}
 
+  che corrisponde al seguente vettore di flusso sugli archi:
+
+  \begin{equation*}
+    f_e^{(w)}=\left(\frac{2}{3}, \frac{1}{3}, \frac{1}{3}, \frac{1}{3}, \frac{2}{3}\right)
+  \end{equation*}
+
   Il ritardo totale che deriva da questo vettore di flusso è dato da:
   \begin{align*}
-    \frac{2}{3}\left(\frac{2}{3}+1 \right) + \frac{5}{9} + \frac{1}{3} + \frac{1}{3} + \frac{5}{9} + \frac{1}{3} + \frac{2}{3}\left(\frac{2}{3}+1 \right) = \frac{13}{3}
+    T_W=\frac{2}{3}\left(\frac{2}{3}+1 \right) + \frac{5}{9} + \frac{1}{3} + \frac{1}{3} + \frac{5}{9} + \frac{1}{3} + \frac{2}{3}\left(\frac{2}{3}+1 \right) = \frac{13}{3}
   \end{align*}
 %-------------------------------------------------------------------------------------
   \questionpart
@@ -115,11 +128,11 @@
     \min\limits_z (z_1+z_3)(z_1+z_3+1)+(5z_2^2+z_2)+(z_3)+(5z_1^2+z_1)+(z_2+z_3)(z_2+z_3+1)
   \end{equation*}
   Utilizzando la condizione di flusso unitario (\(z_1+z_2+z_3=1\)) si ottiene:
-  \begin{eqnarray*}
+  \begin{gather*}
     \min\limits_z (1-z_2)(2-z_2)+(5z_2^2+z_2)+\\
     +(1-z_1-z_2)+(5z_1^2+z_1)+(1-z_1)(2-z_2)=\\
     \min\limits_z 3(2z_1^2-z_1)+3(2z_2^2-z_2)+5
-  \end{eqnarray*}
+  \end{gather*}
   Da cui si deduce:
   \begin{align*}
     z_1=\frac{1}{4} && z_2 = \frac{1}{4}
@@ -131,17 +144,23 @@
     z_{\text{Sistema}}=z_S=\left(\frac{1}{4},\frac{1}{4},\frac{1}{2}\right)
   \end{equation*}
 
+  che corrisponde al seguente vettore di flusso sugli archi:
+
+  \begin{equation*}
+    f_e^{*}=\left(\frac{3}{4}, \frac{1}{4}, \frac{1}{2}, \frac{1}{4}, \frac{3}{4}\right)
+  \end{equation*}
+
   Questa configurazione dei flussi produce un ritardo totale dato da:
 
   \begin{equation*}
-    \frac{3}{4}\left(\frac{3}{4}+1\right)+\frac{1}{4}\left(\frac{5}{4}+1\right)+\frac{1}{2}+\frac{1}{4}\left(\frac{5}{4}+1\right)+\frac{3}{4}\left(\frac{3}{4}+1\right)= \frac{17}{4}
+    T_S=\frac{3}{4}\left(\frac{3}{4}+1\right)+\frac{1}{4}\left(\frac{5}{4}+1\right)+\frac{1}{2}+\frac{1}{4}\left(\frac{5}{4}+1\right)+\frac{3}{4}\left(\frac{3}{4}+1\right)= \frac{17}{4}
   \end{equation*}
 %--------------------------------------------------------------------------------------
   \questionpart
   Il costo totale dell'anarchia è dato dal rapporto tra il il ritardo totale dell'ottimo di sistema e il ritardo totale dell'equilibrio di Wardrop
 
   \begin{equation*}
-    \frac{\frac{13}{3}}{\frac{17}{4}}=\frac{52}{51}
+    \frac{T_W}{T_S}=\frac{\frac{13}{3}}{\frac{17}{4}}=\frac{52}{51}
   \end{equation*}
  %------------------------------------------------------------------------------------ 
   \questionpart
@@ -217,7 +236,7 @@
 
     Dal momento che \(\mathcal{G}\) è bilanciato la misura di probabilità invariante \(\pi \) è proporzionale al vettore \(\omega\). In particolare:
     \begin{equation*}
-      \pi = \frac{\omega}{\mathbb{1}'\omega}=\begin{pmatrix}
+      \pi = \frac{\omega}{\mathbbm{1}'\omega}=\begin{pmatrix}
         \frac{a+1}{a+6} & \frac{2}{a+6} & \frac{1}{a+6} & \frac{2}{a+6}
       \end{pmatrix}'
     \end{equation*}
@@ -441,7 +460,7 @@ end
 
   \end{lstlisting}
 
-  \begin{figure}[htb]
+  \begin{figure}
     \center
      \includegraphics[scale=0.6]{Grafo_2_iterazioni.eps}
     \caption{Stato delle opinioni dopo 2 iterazioni}
@@ -457,14 +476,14 @@ end
     \caption{traiettoria delle opinioni}
   \end{figure}
 %-------------------------------------------------------------------------------
-\newpage  
+ \newpage
 \questionpart
 
   Per calcolare analiticamente il vettore di equilibrio della dinamica di averaging con insieme di nodi stubborn dato da $$\mathcal{S}=\{\text{Medici}, \text{Strozzi}, \text{Castellani}, \text{Guadagni}\}$$ ci si può avvalere dell'analogia con le reti elettriche ed effettuare alcune semplificazioni.
   \\
   Si può inizialmente andare ad effettuare un operazione di \textit{Glueing} sui nodi che ricevono influenza in maniera univoca da un unico nodo, in particolare:
 
-  \begin{figure}[h]
+  \begin{figure}
     \center
      \includegraphics[scale=0.35]{Graph_Glueing.png}
   \end{figure}
@@ -475,7 +494,7 @@ end
   \newpage
   Il grafo può quindi essere ulteriormente semplificato andando ad eliminare i nodi \(\{\text{Barbadori}, \text{Ridolfi}, \text{Tornabuoni}, \text{Guadagni}\}\) e aggiornando di conseguenza i pesi degli archi:
 
-  \begin{figure}[h]
+  \begin{figure}[H]
     \center
     \includegraphics[scale=0.35]{Grap_Series.png}
   \end{figure}
